@@ -1,7 +1,12 @@
 ---
 title: "Creating Interactive Visualisations Using R and Shiny"
-author: | Martin John Hadley
-  | Academic Research Technology Specialist, University of Oxford
+author: | 
+  | Martin John Hadley
+  | Academic Research Technology Specialist
+  | University of Oxford
+  |
+  | Code for talk available here, [https://goo.gl/pU5tu4](https://goo.gl/pU5tu4)
+subtitle: 
 output: slidy_presentation
 css: "www/teachingnotes.css"
 ---
@@ -16,6 +21,12 @@ knitr::opts_chunk$set(fig.width=10, fig.height=6, fig.path='Figs/',
 <style type="text/css">
 @import url("http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css");
 </style>
+
+<style type="text/css">
+@import url("https://raw.githubusercontent.com/ox-it/OxfordIDN_Talks/master/InteractiveViz-with_Shiny-and-others/www/teachingnotes.css");
+</style>
+
+
 
 >- Who has never used R before?
 
@@ -63,7 +74,7 @@ Some of the technology they've built includes:
 
 # Who's heard of RMarkdown?
 
-<center><img src="images/RStudio_Hex_rmarkdown.png" height="50%" alt = RStudio/></center>
+<center><img src="images/RStudio_Hex_rmarkdown.png" height="25%" alt = RStudio/></center>
 
 # <img src="images/RStudio_Hex_rmarkdown.png" height="200px" alt = RMarkdown/>
 
@@ -82,7 +93,7 @@ africa_data_points = data.frame(
   )
 leaflet(data = africa_data_points) %>%
   addTiles() %>%
-  addCircleMarkers(popup = ~label, radius = ~size, clusterOptions = markerClusterOptions())
+  addCircleMarkers(popup = ~label, radius = ~size)
 ```
 </div>
 
@@ -127,7 +138,7 @@ The [htmlwidgets.org](http://htmlwidgets.org) website provides an overview of so
 
 # Interactive tables:
 
-<iframe src="https://livedataoxford.shinyapps.io/PhilippaMatthews_HEPITOPES/" width="100%" height="1000px">
+<iframe src="https://livedataoxford.shinyapps.io/PhilippaMatthews_HEPITOPES/" width="100%" height="1000px"></iframe>
 
 # Interactive ggplot2
 
@@ -182,7 +193,7 @@ ggplotly(p1)
 
 # ggplot2: Interactive Gantt Chart
 
-<iframe src="https://livedataoxford.shinyapps.io/Mireia_Borrell/" width="100%" height="1000px">
+<iframe src="https://livedataoxford.shinyapps.io/Mireia_Borrell/" width="100%" height="1000px"></iframe>
 
 # Is that all you need?
 
@@ -204,7 +215,7 @@ Lynda course: [Creating Interactive Presentations with Shiny and R](https://www.
 
 You might be exciting and want to have multiple [interdependent] charts, or for users of your visualisations to see additional information when they select data.
 
-<iframe src="https://livedataoxford.shinyapps.io/Mireia_Borrell/" width="100%" height="1000px">
+<iframe src="https://livedataoxford.shinyapps.io/Mireia_Borrell/" width="100%" height="1000px"></iframe>
 
 # Shiny
 
@@ -214,7 +225,7 @@ There's no need* to learn HTML or JavaScript to build these interactive apps.
 
 # But these are complicated right?
 
-<iframe src="https://livedataoxford.shinyapps.io/InteractiveViz-with_Shiny-with-others/" width="100%" height="1000px">
+<iframe src="https://livedataoxford.shinyapps.io/InteractiveViz-with_Shiny-with-others/" width="100%" height="1000px"></iframe>
 
 # But these are complicated right?
 
@@ -226,7 +237,7 @@ There's no need* to learn HTML or JavaScript to build these interactive apps.
 
 # How about htmlwidgets and Shiny?
 
-<iframe src="https://livedataoxford.shinyapps.io/OxRep_maps_shipwrecks/" width="100%" height="1000px">
+<iframe src="https://livedataoxford.shinyapps.io/OxRep_maps_shipwrecks/" width="100%" height="1000px"></iframe>
 
 # Hosting these is complicated and expensive right?
 
@@ -252,6 +263,7 @@ All accounts have a limited number of "active hours" - this is the time during w
 When starting off with Shiny you're not going to hit 25 hours per month, experiment freely.
 
 If you start hitting up against the 25 hours - the University is investing in a shinyapps.io subscription [and later a full service]
+</div>
 
 # Deploying these is complicated though?
 
