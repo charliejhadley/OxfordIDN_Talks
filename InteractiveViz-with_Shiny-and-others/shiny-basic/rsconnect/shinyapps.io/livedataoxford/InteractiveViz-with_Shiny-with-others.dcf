@@ -1,0 +1,9 @@
+name: InteractiveViz-with_Shiny-with-others
+account: livedataoxford
+server: shinyapps.io
+appId: 133926
+bundleId: 596984
+url: https://livedataoxford.shinyapps.io/InteractiveViz-with_Shiny-with-others/
+when: 1477474242.25981
+asMultiple: FALSE
+asStatic: FALSE

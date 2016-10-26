@@ -1,0 +1,54 @@
+---
+title: "Creating Interactive Visualisations Using R and Shiny"
+output: slidy_presentation
+runtime: shiny
+# css: "www/teachingnotes.css"
+---
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(fig.width=10, fig.height=6, fig.path='Figs/',
+                      echo=FALSE, warning=FALSE, message=FALSE)
+## ============== USAGE NOTES ===================
+## runtime: shiny is required for html in children files to be interpreted correctly (i.e. colspan elements to work)
+## the generated file CANNOT be pushed directly to shinyapps.io in this form - shinyapps.io does not get the combined html file after pandoc.
+## It is advised that for later deployment the individual files are copy and pasted directly into here, providing ONE file that can be uploaded directly to shinyapps.io
+## Otherwise replace embeddded shinyapps with iframes to these shinyapps.
+```
+
+```{r child = 'Preamble.Rmd'}
+```
+
+```{r child = 'R_RStudio_and_Tidyverse.Rmd'}
+```
+
+```{r child = 'htmlwidgets.Rmd'}
+```
+
+<!-- Exercises !-->
+
+```{r child = 'RMarkdown.Rmd'}
+```
+
+<!-- Exercises !-->
+
+<!-- LUNCH !-->
+
+```{r child = 'Shiny_Basics.Rmd'}
+```
+
+<!-- Exercises !-->
+
+```{r child = 'Shiny_Layouts.Rmd'}
+```
+
+<!-- Exercises !-->
+
+```{r child = 'reactivity_renderUI.Rmd'}
+```
+
+<!-- Exercises !-->
+
+```{r child = 'Shiny_advice.Rmd'}
+```
+
+<!-- Exercises !-->
