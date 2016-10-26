@@ -229,11 +229,11 @@ There's no need* to learn HTML or JavaScript to build these interactive apps.
 
 # But these are complicated right?
 
-<center><img src="images/renderPlot_reactivity.png" width = "100%" alt = Beamer/></center>
+<center><img src="images/renderPlot_reactivity.png" width = "100%"/></center>
 
 # But these are complicated right?
 
-<center><img src="images/renderPlot_reactivity_arrows.png" width = "100%" alt = Beamer/></center>
+<center><img src="images/renderPlot_reactivity_arrows.png" width = "100%"/></center>
 
 # How about htmlwidgets and Shiny?
 
@@ -269,7 +269,7 @@ If you start hitting up against the 25 hours - the University is investing in a 
 
 Publishing your Shiny app to shinyapps.io is incredibly simple if you're using RStudio, simply click on the publish button.
 
-<center><img src="images/shiny_publish_button.png" width = "33%" alt = Beamer/></center>
+<center><img src="images/shiny_publish_button.png" width = "33%"/></center>
 
 # More examples of Shiny apps?
 
@@ -277,9 +277,9 @@ The Live Data project has been funded by IT Services to support researchers in c
 
 These are two of the visualisations we've built that I want to particularly highlight:
 
-<a href="http://ilabour.oii.ox.ac.uk/online-labour-index/"><img src="images/online_labour_index.png" width = "200px" alt = Beamer/></a>
+<a href="http://ilabour.oii.ox.ac.uk/online-labour-index/"><img src="images/online_labour_index.png" width = "200px"/></a>
 
-<a href="https://livedataoxford.shinyapps.io/CRUK-Collaboration-Network/"><img src="images/cruk_shiny_app.png" width = "200px" alt = Beamer/></a>
+<a href="https://livedataoxford.shinyapps.io/CRUK-Collaboration-Network/"><img src="images/cruk_shiny_app.png" width = "200px"/></a>
 
 # Things you might not believe are shiny apps
 
